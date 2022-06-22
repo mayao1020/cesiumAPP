@@ -100,7 +100,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://mayao1020.github.io/yaoyao/",
+  "homepage": "https://mayao1020.github.io/cesiumAPP/",
   "jest": {
     "roots": [
       "<rootDir>/src"

@@ -9,11 +9,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/myself" element={<Home />} />
-        <Route path="/myself/home" element={<Home />} />
-        <Route path="/myself/docs" element={<Docs />} />
-        <Route path="/myself/about" element={<About />} />
-        <Route path="/myself/yq" element={<YqDistribution />} />
+        <Route path="/cesiumAPP/" element={<Home />} />
+        <Route path="/cesiumAPP/home" element={<Home />} />
+        <Route path="/cesiumAPP/docs" element={<Docs />} />
+        <Route path="/cesiumAPP/about" element={<About />} />
+        <Route path="/cesiumAPP/yq" element={<YqDistribution />} />
       </Routes>
     </BrowserRouter>
   );
