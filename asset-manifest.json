@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/yaoyao/static/css/main.10936660.css",
-    "main.js": "/yaoyao/static/js/main.a5a97054.js",
-    "static/js/529.9c01263c.chunk.js": "/yaoyao/static/js/529.9c01263c.chunk.js",
-    "static/media/myself.pdf": "/yaoyao/static/media/myself.ef8bb158ab9abc3dd547.pdf",
-    "static/media/sass.svg": "/yaoyao/static/media/sass.13c7d6a0a956523ebafe6e89516dbbbd.svg",
-    "static/media/react.svg": "/yaoyao/static/media/react.5d6ef7b78e37b66ee5bd99bd55ae96a4.svg",
-    "static/media/ts.svg": "/yaoyao/static/media/ts.1d6568a01e83425f43de98376df3f92e.svg",
-    "static/media/vscode.svg": "/yaoyao/static/media/vscode.2d030c71e831f3235a4db50534aa7ca4.svg",
-    "index.html": "/yaoyao/index.html",
-    "static/media/vue.svg": "/yaoyao/static/media/vue.7201feae62a155559a321e3209eb0049.svg",
-    "main.10936660.css.map": "/yaoyao/static/css/main.10936660.css.map",
-    "main.a5a97054.js.map": "/yaoyao/static/js/main.a5a97054.js.map",
-    "529.9c01263c.chunk.js.map": "/yaoyao/static/js/529.9c01263c.chunk.js.map"
+    "main.css": "/cesiumAPP/static/css/main.10936660.css",
+    "main.js": "/cesiumAPP/static/js/main.f48f877c.js",
+    "static/js/529.9c01263c.chunk.js": "/cesiumAPP/static/js/529.9c01263c.chunk.js",
+    "static/media/myself.pdf": "/cesiumAPP/static/media/myself.ef8bb158ab9abc3dd547.pdf",
+    "static/media/sass.svg": "/cesiumAPP/static/media/sass.13c7d6a0a956523ebafe6e89516dbbbd.svg",
+    "static/media/react.svg": "/cesiumAPP/static/media/react.5d6ef7b78e37b66ee5bd99bd55ae96a4.svg",
+    "static/media/ts.svg": "/cesiumAPP/static/media/ts.1d6568a01e83425f43de98376df3f92e.svg",
+    "static/media/vscode.svg": "/cesiumAPP/static/media/vscode.2d030c71e831f3235a4db50534aa7ca4.svg",
+    "index.html": "/cesiumAPP/index.html",
+    "static/media/vue.svg": "/cesiumAPP/static/media/vue.7201feae62a155559a321e3209eb0049.svg",
+    "main.10936660.css.map": "/cesiumAPP/static/css/main.10936660.css.map",
+    "main.f48f877c.js.map": "/cesiumAPP/static/js/main.f48f877c.js.map",
+    "529.9c01263c.chunk.js.map": "/cesiumAPP/static/js/529.9c01263c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10936660.css",
-    "static/js/main.a5a97054.js"
+    "static/js/main.f48f877c.js"
   ]
 }
