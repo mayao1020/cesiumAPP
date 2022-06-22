@@ -1,0 +1,6 @@
+/lib
+/config
+/public
+/scripts
+/node_modules
+**/*.d.ts
