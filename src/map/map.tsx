@@ -2,8 +2,6 @@ import * as Cesium from "cesium";
 
 import React, { Component } from "react";
 import "./map.css";
-import BottomTools from "./bottombtn/bottomtools";
-import RightTools from "./righttools/righttools";
 
 export default class Map extends Component {
   componentDidMount() {
@@ -41,24 +39,6 @@ export default class Map extends Component {
   };
 
   render() {
-    return (
-      <div className="timespace">
-        <div className="timespace_top"></div>
-        <div className="timespace_bottom">
-          <div className="timespace_bottom_left">
-            <div
-              id="cesiumContainer"
-              className="timespace_bottom_left_earth"
-            ></div>
-            <div className="timespace_bottom_left_bottom">
-              <BottomTools type={this.getType} />
-            </div>
-          </div>
-          <div className="timespace_bottom_right">
-            <RightTools />
-          </div>
-        </div>
-      </div>
-    );
+    return <div className="app-Map">cesium-map</div>;
   }
 }
