@@ -1,64 +1,40 @@
-.cesium-widget-credits {
-  /* 去除logo */
-  display: none !important;
-}
-
-.timespace {
-  background-color: #002226;
-  width: 1920px;
-  height: 1080px;
-}
-
-.timespace_top {
-  width: 100%;
-  height: 118px;
-  background-color: transparent;
-}
-
-.timespace_bottom {
-  display: flex;
-  flex-wrap: nowrap;
-  width: 100%;
-  height: 962px;
-  background-color: transparent;
-}
-
-.timespace_bottom_left {
-  position: relative;
-  width: 1455px;
-  height: 910px;
-  background-color: transparent;
-  margin-left: 32px;
-  border: 1px solid #00F9FF;
-  border-radius: 10px 0 0 10px;
-  /* border-image: linear-gradient(to bottom, #00F9FF, #00f2ff2f) 1; */
-}
-
-.timespace_bottom_left_bottom {
+.map {
   position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 617px;
-  height: 42px;
-  background-image: url('./image/earth_bottom.png');
-  padding: 0 10px 0 45px;
-  box-sizing: border-box;
-}
-
-.timespace_bottom_left_earth {
   width: 100%;
   height: 100%;
+  background-color: rgba(6, 80, 80, 0.349);
 }
 
-.timespace_bottom_right {
-  width: 400px;
-  height: 910px;
-  background-color: transparent;
-  border: 1px solid #00F9FF;
-  border-radius: 0 10px 10px 0;
-  /* border-image: linear-gradient(to bottom, #00F9FF, #00f2ff2f) 1; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.map-left {
+  position: absolute;
+  width: 300px;
+  height: 700px;
+  left: 0;
+  top: 130px;
+  left: 20px;
+  background-color: skyblue;
+}
+
+.left-show {
+  position: absolute;
+  left: 0;
+  top: 130px;
+  left: 20px;
+}
+
+.map-right {
+  position: absolute;
+  width: 300px;
+  height: 700px;
+  right: 0;
+  top: 130px;
+  right: 20px;
+  background-color: skyblue;
+}
+
+.right-show {
+  position: absolute;
+  right: 0;
+  top: 130px;
+  right: 20px;
 }

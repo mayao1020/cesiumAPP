@@ -3,7 +3,18 @@ import * as Cesium from "cesium";
 import React, { Component } from "react";
 import "./map.css";
 
+import MapLeft from "../L_R-page/mapLeft";
+import MapRight from "../L_R-page/mapRight";
+
+import Point from "../shape/point";
+import PolyLine from "../shape/polyline";
+import PolyGon from "../shape/polygon";
+
 export default class Map extends Component {
+  state = {
+    showleft: true,
+    showright: true,
+  };
   componentDidMount() {
     const TOKEN =
       "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIwN2UzOGQ1ZC04ZjFhLTQxYzEtOWEzMy04YTdhYWMzNDY2ODYiLCJpZCI6OTExMzMsImlhdCI6MTY1MDg1MjcxNn0.TsT3OIQrdXBMN5m5RW4Gmogr4kJCIwKHCiL2VfhU_Hk";
@@ -33,12 +44,50 @@ export default class Map extends Component {
     viewer.scene.skyBox.show = false;
     viewer.scene.backgroundColor = new Cesium.Color(0.0, 0.0, 0.0, 0.0);
   }
-
-  getType = (type: string) => {
-    console.log(type);
+  showLeft = (show: boolean) => {
+    this.setState({
+      showleft: show,
+    });
+  };
+  showRight = (show: boolean) => {
+    this.setState({
+      showright: show,
+    });
   };
 
   render() {
-    return <div className="app-Map">cesium-map</div>;
+    return (
+      <div className="React-Map">
+        <div className="map" id="cesiumContainer"></div>
+        {this.state.showleft ? (
+          <div className="map-left">
+            <MapLeft show={this.showLeft} />
+          </div>
+        ) : (
+          <input
+            type="button"
+            value="打开"
+            className="left-show"
+            onClick={() => {
+              this.setState({ showleft: true });
+            }}
+          />
+        )}
+        {this.state.showright ? (
+          <div className="map-right">
+            <MapRight show={this.showRight} />
+          </div>
+        ) : (
+          <input
+            type="button"
+            value="打开"
+            className="right-show"
+            onClick={() => {
+              this.setState({ showright: true });
+            }}
+          />
+        )}
+      </div>
+    );
   }
 }
