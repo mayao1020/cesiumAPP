@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cesiumAPP/static/css/main.df04b5da.css",
-    "main.js": "/cesiumAPP/static/js/main.419fa3b3.js",
+    "main.css": "/cesiumAPP/static/css/main.c2570128.css",
+    "main.js": "/cesiumAPP/static/js/main.99a59abd.js",
     "static/js/529.c350ef6f.chunk.js": "/cesiumAPP/static/js/529.c350ef6f.chunk.js",
     "Assets/Textures/waterNormals.jpg": "/cesiumAPP/Assets/Textures/waterNormals.jpg",
     "Assets/approximateTerrainHeights.json": "/cesiumAPP/Assets/approximateTerrainHeights.json",
@@ -411,12 +411,12 @@
     "Widgets/FullscreenButton/FullscreenButton.css": "/cesiumAPP/Widgets/FullscreenButton/FullscreenButton.css",
     "Widgets/VRButton/VRButton.css": "/cesiumAPP/Widgets/VRButton/VRButton.css",
     "Data/jada/text": "/cesiumAPP/Data/jada/text",
-    "main.df04b5da.css.map": "/cesiumAPP/static/css/main.df04b5da.css.map",
-    "main.419fa3b3.js.map": "/cesiumAPP/static/js/main.419fa3b3.js.map",
+    "main.c2570128.css.map": "/cesiumAPP/static/css/main.c2570128.css.map",
+    "main.99a59abd.js.map": "/cesiumAPP/static/js/main.99a59abd.js.map",
     "529.c350ef6f.chunk.js.map": "/cesiumAPP/static/js/529.c350ef6f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df04b5da.css",
-    "static/js/main.419fa3b3.js"
+    "static/css/main.c2570128.css",
+    "static/js/main.99a59abd.js"
   ]
 }
